@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PrettyPop_Example' do
+  pod 'PrettyPop', :path => '../'
+
+  target 'PrettyPop_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
