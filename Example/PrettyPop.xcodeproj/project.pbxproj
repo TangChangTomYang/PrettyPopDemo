@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		09D4F75C55C38B79877EC237 /* Pods_PrettyPop_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7599CB0F76C5E39B1139FF17 /* Pods_PrettyPop_Tests.framework */; };
+		14AD98AC1F4562F40052EE85 /* YRBouncyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD98AB1F4562F40052EE85 /* YRBouncyViewController.m */; };
+		14AD98AF1F456F9C0052EE85 /* YRHitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD98AE1F456F9C0052EE85 /* YRHitViewController.m */; };
+		14AD98B21F458CA40052EE85 /* YRPopWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD98B11F458CA40052EE85 /* YRPopWindowViewController.m */; };
+		14AD98B51F4596750052EE85 /* YRToRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD98B41F4596750052EE85 /* YRToRightViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,9 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		085E29D585704441627337FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		085E29D585704441627337FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14AD98AA1F4562F40052EE85 /* YRBouncyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRBouncyViewController.h; sourceTree = "<group>"; };
+		14AD98AB1F4562F40052EE85 /* YRBouncyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRBouncyViewController.m; sourceTree = "<group>"; };
+		14AD98AD1F456F9C0052EE85 /* YRHitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRHitViewController.h; sourceTree = "<group>"; };
+		14AD98AE1F456F9C0052EE85 /* YRHitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRHitViewController.m; sourceTree = "<group>"; };
+		14AD98B01F458CA40052EE85 /* YRPopWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPopWindowViewController.h; sourceTree = "<group>"; };
+		14AD98B11F458CA40052EE85 /* YRPopWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPopWindowViewController.m; sourceTree = "<group>"; };
+		14AD98B31F4596750052EE85 /* YRToRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRToRightViewController.h; sourceTree = "<group>"; };
+		14AD98B41F4596750052EE85 /* YRToRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRToRightViewController.m; sourceTree = "<group>"; };
 		1C041C5B8A3FDC52E8E61E9E /* Pods-PrettyPop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPop_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyPop_Example/Pods-PrettyPop_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5243BE05CAB16356D1B23139 /* PrettyPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PrettyPop.podspec; path = ../PrettyPop.podspec; sourceTree = "<group>"; };
+		5243BE05CAB16356D1B23139 /* PrettyPop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrettyPop.podspec; path = ../PrettyPop.podspec; sourceTree = "<group>"; };
 		5319E6A2123AEE4C9D9550DB /* Pods-PrettyPop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPop_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyPop_Tests/Pods-PrettyPop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PrettyPop_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettyPop_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +76,7 @@
 		7599CB0F76C5E39B1139FF17 /* Pods_PrettyPop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyPop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B7859A4C5F0DC0763293EF6 /* Pods_PrettyPop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrettyPop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8DD4DB581A245F72E54D5DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A8DD4DB581A245F72E54D5DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B879793B706915016561BBF2 /* Pods-PrettyPop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPop_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyPop_Example/Pods-PrettyPop_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3CBF4273C19EB369F265E29 /* Pods-PrettyPop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrettyPop_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrettyPop_Tests/Pods-PrettyPop_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +149,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YRViewController.h */,
 				6003F5A6195388D20070C39A /* YRViewController.m */,
+				14AD98B31F4596750052EE85 /* YRToRightViewController.h */,
+				14AD98B41F4596750052EE85 /* YRToRightViewController.m */,
+				14AD98AA1F4562F40052EE85 /* YRBouncyViewController.h */,
+				14AD98AB1F4562F40052EE85 /* YRBouncyViewController.m */,
+				14AD98AD1F456F9C0052EE85 /* YRHitViewController.h */,
+				14AD98AE1F456F9C0052EE85 /* YRHitViewController.m */,
+				14AD98B01F458CA40052EE85 /* YRPopWindowViewController.h */,
+				14AD98B11F458CA40052EE85 /* YRPopWindowViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -394,9 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AD98B51F4596750052EE85 /* YRToRightViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YRAppDelegate.m in Sources */,
+				14AD98AC1F4562F40052EE85 /* YRBouncyViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* YRViewController.m in Sources */,
+				14AD98B21F458CA40052EE85 /* YRPopWindowViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				14AD98AF1F456F9C0052EE85 /* YRHitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

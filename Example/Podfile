@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'PrettyPop_Example' do
   pod 'PrettyPop', :path => '../'
+  
+  pod 'pop'
 
   target 'PrettyPop_Tests' do
     inherit! :search_paths

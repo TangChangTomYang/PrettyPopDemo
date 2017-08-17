@@ -1,0 +1,6 @@
+framework module PrettyPop {
+  umbrella header "PrettyPop-umbrella.h"
+
+  export *
+  module * { export * }
+}

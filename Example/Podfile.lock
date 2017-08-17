@@ -1,0 +1,19 @@
+PODS:
+  - pop (1.0.9)
+  - PrettyPop (0.1.0)
+
+DEPENDENCIES:
+  - pop
+  - PrettyPop (from `../`)
+
+EXTERNAL SOURCES:
+  PrettyPop:
+    :path: ../
+
+SPEC CHECKSUMS:
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PrettyPop: 106ca0e7ef619b0a278d04745fcb02111eabbd58
+
+PODFILE CHECKSUM: 6ec396408a15591953d9cb745d06a0bda252fcc3
+
+COCOAPODS: 1.2.1
